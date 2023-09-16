@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item android:title="Dashboard"
+     android:id="@+id/dashboard"
+        android:icon="@drawable/ic_dashboard"
+        />
+    <item android:title="Favourites"
+        android:id="@+id/favourites"
+        android:icon="@drawable/ic_favourites"
+        />
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        />
+    <item android:title="About Us"
+        android:id="@+id/about"
+        android:icon="@drawable/ic_info"
+        />
+    </group>
+</menu>
